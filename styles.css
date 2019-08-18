@@ -1,0 +1,121 @@
+body {
+    background: rgb(18, 18, 18);
+    color: rgb(219, 211, 211);
+    font-family: helvetica neue, helvetica, arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb (18, 18, 18);
+    height: 170px;
+    padding: 0px;  
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+header .mobile {
+    display: none;
+}
+
+header .logo a{
+    background-image: url("Images/ellylogo.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -100px;
+    right: -20px;
+    width: 400px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* RESPONSIVE RULES */
+
+@media screen and (max-width: 750px) {
+    header {
+        height: 200px;
+    }
+    
+    header .mobile {
+        display: inline-block;
+    }
+
+    header .desktop {
+        display: none;
+    }
+}
+
+/* FEATURES */
+
+.features {
+    background: rgb (18, 18, 18);
+    color: white;
+    display: flex;
+    flex-direction: row;   
+    padding: 0px;
+}
+
+.features figure {
+   margin: auto;
+   width: 350px;
+}
+
+.features figure img {
+    border: 1px solid rgb(43, 197, 189);
+    border-radius: 80%;
+    box-shadow: rgb(36, 35, 35) 0 0 10px;
+    height: 355px;
+    width: 350px;
+} 
+
+/* RESPONSIVE RULES
+
+@media screen and (max-width: 750px) {
+    header .mobile {
+        display: inline-block;
+    }
+
+    header .desktop {
+        display: none;
+    }
+}
+
+/* FOOTER */
+
+.text div {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background: rgb(49, 48, 48);
+    font-size: 10px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+footer div {
+    display: inline-block;
+    padding: 8px;
+}
